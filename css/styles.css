@@ -1,7 +1,8 @@
 
 *{
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
+   
 }
 .navbar-brand{
     font-size: 0;
@@ -12,7 +13,6 @@ body{
     
 }
 .navbar-custom {
-    background-color:#C69C6D; /* Brown color */
     font-weight: 500;
     font-size: 1rem;
   }
@@ -25,12 +25,12 @@ body{
 }
 
 .txt-unico{
-    color: #603813;
+    color: #191919;
     font-weight: 800;
 }
 
 #row-1{
-    background-color: #C7B299;
+    background-color: #191919;
     color: white;
 }
 
@@ -51,5 +51,9 @@ body{
   }
 
  span{
-    color: #C69C6D;
+    color: #f7f7f7;
   }
+
+#redes{
+  color:black
+}

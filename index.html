@@ -1,17 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es"
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/3b276e87db.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Antipoda</title>
+    <title>PARE MARIA ELIZABETH, DWN2AP</title>
   </head>
   <body>
   
@@ -21,7 +20,7 @@
     </p>
 </header>
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom" id="nav">
-    <a class="navbar-brand" href="#">Antípoda<img src="img/logo.png" alt="Logo"></a>
+    <a class="navbar-brand p-3" href="#">Antípoda<img src="img/logo.png" alt="Logo"></a>
 
     <div class="container-fluid" id="container-nav">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,24 +32,18 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" href="#productos">Shop</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Conócenos
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Artistas</a></li>
-              <li><a class="dropdown-item" href="#">Exhibiciones</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Favoritos</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#artists">Artistas</a>
           </li>
-          
+          <li class="nav-item">
+            <a class="nav-link" href="#form">Contacto</a>
+          </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #bb7702;"></i></button>
+          <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #bb7702;"></i></button>
         </form>
       </div>
     </div>
@@ -58,13 +51,13 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-interval="3000" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/techwall-hero.jpg" class="d-block w-100"  alt="...">
+        <img src="img/techwall-hero.jpg" class="d-block w-100"  alt="slide1">
       </div>
       <div class="carousel-item">
-        <img src="img/home-04.jpg" class="d-block w-100"  alt="...">
+        <img src="img/home-04.jpg" class="d-block w-100"  alt="slide2">
       </div>
       <div class="carousel-item">
-        <img src="img/arredamento-design-made-in-italy.jpg" class="d-block w-100 "    alt="...">
+        <img src="img/arredamento-design-made-in-italy.jpg" class="d-block w-100 "    alt="slide3">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -80,7 +73,7 @@
 <section class="w-50 mx-auto text-center pt-5" id="intro">
     <h1 class="p-3 fs-2 border-top border-3">
         Decoracion única, para una persona única como vos.
-    <span class="txt-unico">Muebles únicos</span></h1><p class="p-3 fs-4 "><span>Antípoda </span>Tiene lo que necesitas!</p>
+    <span class="txt-unico">Muebles únicos</span></h1><p class="p-3 fs-4 "><span text-dark>Antípoda </span>Tiene lo que necesitas!</p>
 </section>
 
 <section class="container-fluid ">
@@ -121,65 +114,108 @@
     </div>
     <div class="col-lg-3 col-md-6 col-sm-12  pt-3 justify-contentent-center text-center" >
 
-        <img src="img/checkmark-flat.svg" alt="" width="180" height="160">
+        <img src="img/person-girl-flat.svg" alt="" width="180" height="160">
     
     <div>
-        <h3 class="fs-5 mt-4 px-4 pb-1">Stock</h3>
+        <h3 class="fs-5 mt-4 px-4 pb-1">Asesoramiento exclusivo</h3>
         <p>
-        Contamos con stock inmediato
+        Te asesoramos en todo el proceso de compra, tenemos personal shoppers, contactanos para brindarte mas información.
         </p>
     </div>
     </div>
 </div>
 </section>
-<span>
-  <h1 class="text-center mt-4 mb-4 ">Prouctos</h1>
+<span id="productos">
+<h1  class="text-center mt-4 mb-4 bg-dark">Productos</h1>
 </span>
 <section>
-  <div class="container mt-4">
-    <div class="row-1 d-flex flex-wrap align-items-center">
+  <div class="container-fluid align-items-center">
+    <div class="row-1 d-flex flex-wrap">
      
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-3 col-sm-12">
           <h3 class="row-2 text-center">Credenzas</h3>
-            <img src="img/credenzas-9-3-door-1524-x-930-high-b-arcit18.jpg" alt="">
+            <img src="img/credenzas-9-3-door-1524-x-930-high-b-arcit18.jpg" class="img-fluid" alt="Credenzas">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <h3 class="text-center">Espejos</h3>
-            <img src="img/03-futon-mirror-intra-lighting-pro-b-arcit18-min.jpg" alt="">
+            <img src="img/03-futon-mirror-intra-lighting-pro-b-arcit18-min.jpg" class="img-fluid" alt="Espejos">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <h3 class="row-2 text-center">Sillas</h3>
-            <img src="img/twist-sit-visitor-chairs-2-pro-b-arcit18.jpg"  alt="">
+            <img src="img/twist-sit-visitor-chairs-2-pro-b-arcit18.jpg" class="img-fluid"   alt="Sillas">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <h3 class="row-2 text-center">Mesas</h3>
-            <img src="img/atenae-small-coffe-table-20308322-1-pro-b-arcit18.jpg" alt="">
+            <img src="img/atenae-small-coffe-table-20308322-1-pro-b-arcit18.jpg" class="img-fluid" alt="Mesas">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <h3 class="row-2 text-center top-0">Estantes</h3>
-            <img src="img/taidgh-shelf-c-walnut-40-b-arcit18.jpg"  alt="">
+            <img src="img/taidgh-shelf-c-walnut-40-b-arcit18.jpg" class="img-fluid"  alt="Estante">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <h3 class="row-2 text-center">Sillones</h3>
-            <img src="img/plum-560-1-ak2020-korr-pro-b-arcit18-min.jpg" alt="">
+            <img src="img/plum-560-1-ak2020-korr-pro-b-arcit18-min.jpg"class="img-fluid"  alt="Sillon">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <h3 class="text-center">Sofás</h3>
-          <img src="img/lxr01-sofa-6-200706-pro-b-arcit18-min.jpg" alt="">
+          <img src="img/lxr01-sofa-6-200706-pro-b-arcit18-min.jpg" class="img-fluid"   alt="Sofa">
       </div>
       <div class="col-12 col-md-6 col-lg-3">
         <h3 class="row-2 text-center">Iluminación</h3>
-        <img src="img/spot-sp-uw1-ab-spot-unswitched-wall-light-antique-brass-pro-b-arcit18-min.jpg" alt="">
+        <img src="img/spot-sp-uw1-ab-spot-unswitched-wall-light-antique-brass-pro-b-arcit18-min.jpg" class="img-fluid"   alt="Luces">
     </div>
     </div>
 </div>
+<section class="row">
+    <h3 class="fs-8 text-center">Nosotros</h3>
+   
+      <video class="col-lg-6 col-sm-12 col-md-6" src="video/67.mp4" alt="video" autoplay ></video>
+
+    <div class="col-lg-6 col-sm-12 col-md-6">
+      <p>
+        Antípoda es una destacada marca de diseñadores de muebles que se distingue por su enfoque vanguardista y su compromiso con la calidad y la innovación en el diseño.<br>
+        Fundada hace más de dos décadas por un grupo de creativos visionarios, la marca ha establecido un nombre sólido en el mundo del diseño de interiores y mobiliario contemporáneo.<br>
+        Desde sus inicios, Antípoda se ha dedicado a fusionar funcionalidad y estética, creando piezas que no solo embellecen espacios, sino que también mejoran la experiencia de quienes los habitan.
+      </p>
+      <p>
+        El estilo característico de Antípoda se define por líneas limpias, formas geométricas audaces y una paleta de colores cuidadosamente seleccionada que refleja modernidad y elegancia.
+        Cada pieza de mobiliario de la marca es el resultado de un proceso meticuloso que combina técnicas artesanales con tecnología de punta, asegurando así la excelencia en cada detalle.
+        Este compromiso con la artesanía y la calidad se traduce en muebles que no solo son estéticamente impresionantes, sino también duraderos y funcionales en su uso diario.
+      </p>
+  
+        <p>Además de su compromiso con el diseño estético y funcional, Antípoda también se destaca por su compromiso con la sostenibilidad ambiental.
+        La marca utiliza materiales ecoamigables siempre que es posible y trabaja con proveedores que comparten sus valores de responsabilidad ambiental.
+        Esto no solo se refleja en la elección de materiales, sino también en la optimización de procesos de producción para minimizar el impacto ambiental y promover prácticas de consumo responsable entre sus clientes.
+        </p>
+        
+        <p>
+          La influencia cultural y la inspiración global son también pilares fundamentales en el proceso creativo de Antípoda.
+        Desde influencias arquitectónicas contemporáneas hasta elementos de diseño tradicionales de diversas culturas alrededor del mundo, cada colección de la marca cuenta una historia única que celebra la diversidad y la riqueza del diseño global.
+        Esta capacidad de fusionar lo tradicional con lo contemporáneo permite a Antípoda crear piezas de mobiliario que trascienden las tendencias pasajeras y perduran en el tiempo como verdaderas obras de arte funcional.
+        </p>
+        <p>
+          En resumen, Antípoda se posiciona como una marca líder en el sector del diseño de muebles contemporáneos, no solo por su estética innovadora y su compromiso con la calidad, sino también por su enfoque en la sostenibilidad y su capacidad para fusionar influencias culturales globales en sus creaciones.
+      Cada pieza de mobiliario de Antípoda no solo embellece espacios, sino que también enriquece la vida diaria de quienes valoran el buen diseño y la excelencia artesanal.
+        </p>
+        
+       
+        
+      
+      
+    </div>
+  </div>
+
+</section>
+
 <span>
-  <h1 class="text-center mt-4 mb-4">Nuestros Artistas</h1>
+  <div id="artists"  class="bg-dark">
+    <h1 class="text-center mt-4 mb-4">Nuestros Artistas</h1>
+  </div>
 </span>
 <section>
   <div class="card-group">
     <div class="card">
-      <img src="img/portrait1.jpg" class="card-img-top" alt="...">
+      <img src="img/portrait1.jpg" class="card-img-top" alt="Elena">
       <div class="card-body">
         <h5 class="card-title">Elena Rossi</h5>
         <p class="card-text">Nacida en Milan, Italia, es conocida por su elegancia minimalista y funcionalidad innovadora en el diseño de muebles. Graduada en Diseño Industrial, fundó su estudio en el corazón de Milán, combinando tradición artesanal con tecnología avanzada. Sus piezas, caracterizadas por líneas limpias y materiales sostenibles, han ganado reconocimiento internacional, definiendo un estilo que fusiona la estética europea clásica con la simplicidad moderna.</p>
@@ -187,14 +223,14 @@
       </div>
     </div>
     <div class="card">
-      <img src="img/portrait2.jpg" class="card-img-top" alt="...">
+      <img src="img/portrait2.jpg" class="card-img-top" alt="Alexei">
       <div class="card-body">
         <h5 class="card-title">Alexei Petrov</h5>
         <p class="card-text">Diseñador ruso que revoluciona el mundo del mobiliario con su enfoque vanguardista y audaz. Nacido en San Petersburgo, sus creaciones reflejan una pasión por la geometría abstracta y la experimentación con nuevos materiales. Formado en Arquitectura, Petrov fundó su estudio en Moscú, donde diseña muebles que desafían las convenciones, combinando estética provocativa con funcionalidad meticulosa. Sus obras están presentes en colecciones privadas y exposiciones internacionales.</p>
       </div>
     </div>
     <div class="card">
-      <img src="img/Portrait3.jpg"  class="card-img-top" alt="...">
+      <img src="img/Portrait3.jpg"  class="card-img-top" alt="Gabriel">
       <div class="card-body">
         <h5 class="card-title">Gabriel Torres</h5>
         <p class="card-text"> Oriundo de Buenos Aires, Argentina, es un diseñador de muebles conocido por su enfoque innovador y su pasión por los materiales locales. Graduado en Diseño Industrial, Torres estableció su estudio en el vibrante barrio de Palermo, donde fusiona la estética moderna con elementos tradicionales argentinos. Sus piezas destacan por el uso creativo de maderas autóctonas y técnicas artesanales, creando muebles que combinan funcionalidad con una estética distintiva.</p>
@@ -203,9 +239,101 @@
     </div>
   </div>
 </section>
+<span>
+  <div id="artists"  class="bg-dark">
+    <h1 class="text-center mt-4 mb-4">Contacto</h1>
+  </div>
+</span>
+<section>
+  <section id="form"  class="row">
+    <div class="col-lg-3 col-sm-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9926722975647!2d-58.400871117320904!3d-34.604346803218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea670d4e67%3A0x2198c954311ad6d9!2sDa%20Vinci%20%7C%20Primera%20Escuela%20de%20Arte%20Multimedial!5e0!3m2!1ses-419!2sar!4v1719603640519!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <form class="col-lg-2 col-sm-6">
+      <div class="mb-3 mt-4">
+        <h1>Estamos en:</h1>
+        <p>Av. Corrientes 1233 <br>
+        Llamanos al: <strong>0117272727</strong></p>
+      
+        <label for="Name" class="form-label">Nombre</label>
+        <input type="Name" class="form-control" id="Name" aria-describedby="Name">
+        <label for="Email1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="InputEmail1" aria-describedby="email">
+        <label for="Apellido" class="form-label">Apellido</label>
+        <input type="Apellido" class="form-control" id="Apellido" aria-describedby="Apellido">
+        <div class="mb-3">
+          <label for="Comentarios" class="form-label">Comentarios:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Quiero recibir ofertas</label>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+</section>
+  <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <img src="img/logo.png" width="70" height="70"><use xlink:href="#inicio"></use></img>
+        </a>
+        <p class="text-body-secondary">© 2024</p>
+      </div>
+  
+      <div class="col mb-3">
+  
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Información</h5>
+        <article class="nav flex-column">
+          <p class="justify-contentent-center">
+           
+            <strong>PARÉ, MARIA ELIZABETH</strong>
+            Interacción con dispositivos móviles, DWN2AP <br>
+            Escuela Da Vinci 
+            2024
+          </p>
+        <article>
+      </div>
+  
+      
+  
+      <div class="col mb-3">
+        <section id="redes" class="container mt-4">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <h3 class="mb-4">Redes Sociales</h3>
+              <ul class="list-inline">
+                <li class="list-inline-item mr-3">
+                  <a href="https://www.facebook.com" target="_blank" class="text-decoration-none">
+                    <i class="fab fa-facebook-square fa-3x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item mr-3">
+                  <a href="https://twitter.com" target="_blank" class="text-decoration-none">
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                    <i class="fab fa-instagram-square fa-3x"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </div>
 
-</div>
-</section> 
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
